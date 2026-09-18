@@ -1,0 +1,23 @@
+# Documentation
+
+### Username validation
+- Checks if username contains "_" 
+- Length <= 5
+
+### Password validation
+- At least 8 characters
+- One uppercase letter
+- One digit
+- One special character: !@#$%^&*
+
+### Cellphone validation
+- Must start with +27
+- Total length 12
+- Example: +27821234567
+
+### Methods Used
+- checkUserName()
+- checkPasswordComplexity()
+- checkCellPhoneNumber()
+- registerUser()
+- returnLoginStatus()
